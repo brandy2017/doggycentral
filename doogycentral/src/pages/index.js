@@ -3,7 +3,7 @@
 import Card from "@/components/Card";
 import Dog from "@/components/Dog";
 import Navbar from "@/components/Navbar";
-
+import DogList from "@/components/DogList";
 // A React component is a function that returns JSX/HTML
 
 // The process we follow when creating React components:
@@ -23,6 +23,7 @@ export default function Home() {
       <Navbar />
       <Card />
       <Dog />
+      <DogList />
     </div>
   );
 }
