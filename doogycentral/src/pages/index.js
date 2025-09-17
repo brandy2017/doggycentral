@@ -1,6 +1,7 @@
 // Imports go at the top of the file!
 // Syntax for importing: import NameOfImport from "whereTheExportIsComingFrom"
 import Card from "@/components/Card";
+import Dog from "@/components/Dog";
 
 // A React component is a function that returns JSX/HTML
 
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <div>
       <Card />
+      <Dog />
     </div>
   );
 }
