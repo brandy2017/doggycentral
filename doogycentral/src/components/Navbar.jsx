@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <h1>
                 <NavButton text="Home" />
-                <NavButton text="About Us" />
+                <NavButton text="Find a shelter" />
                 <NavButton text="Contact" />
                 <NavButton text="Sign In" />
                 Navbar
